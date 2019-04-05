@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/DXRichEdit_HitTest/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/DXRichEdit_HitTest/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/DXRichEdit_HitTest/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXRichEdit_HitTest/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DXRichEdit_HitTest/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXRichEdit_HitTest/MainWindow.xaml.vb))
 <!-- default file list end -->
 # DXRichEdit for WPF: How to use hit testing
