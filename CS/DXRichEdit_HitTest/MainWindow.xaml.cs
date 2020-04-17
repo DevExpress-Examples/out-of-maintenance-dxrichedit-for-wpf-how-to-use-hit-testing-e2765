@@ -68,7 +68,7 @@ namespace DXRichEdit_HitTest
                     if (bm.Range.Contains(pos))
                     {
                         Bookmark bmHovered = bm;
-                        richEditControl1.Document.SelectBookmark(bmHovered);
+                        richEditControl1.Document.Bookmarks.Select(bmHovered);
                         ShowBookmarkInTextBlock(bmHovered);
                         break;
                     }

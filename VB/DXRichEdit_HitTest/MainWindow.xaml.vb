@@ -58,7 +58,7 @@ Namespace DXRichEdit_HitTest
 				For Each bm As Bookmark In bmCollection
 					If bm.Range.Contains(pos) Then
 						Dim bmHovered As Bookmark = bm
-						richEditControl1.Document.SelectBookmark(bmHovered)
+						richEditControl1.Document.Bookmarks.Select(bmHovered)
 						ShowBookmarkInTextBlock(bmHovered)
 						Exit For
 					End If
